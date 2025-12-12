@@ -1,0 +1,18 @@
+{% extends 'extras/navegacion.html' %}
+{% load static %}
+
+{% block pag %}
+<title>Contac</title>
+
+<h1>Contact us</h1>
+
+<img src="{% static 'icono.png' %}" alt="icono">
+
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="btn">
+        Send/Enviar
+    </button>
+</form>
+{% endblock %}

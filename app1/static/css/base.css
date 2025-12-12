@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(159, 193, 235);
+    color: rgb(255, 255, 255);
+}
+
+.all{
+    max-width: 1150px;
+    margin: auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+.navigation{
+    background: rgb(115, 178, 236);
+    padding: 10px 0px;
+    max-width: 1250px;
+    margin: auto;
+}
+
+
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation ul li a{
+    color: ivory;
+    text-decoration: none;
+    font-size: x-large;
+    font-style: italic;
+    padding: 0px 20px;
+}
+
+.navigation ul li a:hover{
+    color: hsl(0, 31%, 40%);
+    font-size: large;
+}
+
+.selecc{
+    background: rgb(159, 202, 241);
+    padding: 5px 0px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.selecc a{
+    color: beige;
+}
+
+.selecc a:hover{
+    color: hsl(0, 31%, 40%);
+    font-size: x-large;
+}
+
+
+.textinp{
+    background: rgb(151, 200, 247);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.btn{
+    background: rgb(196, 225, 252);
+    padding: 2px 3px;
+    font-size:larger;
+}
